@@ -29,7 +29,7 @@ SECRET_KEY = "django-insecure-%yr1un2e7^nhgi1r0sc0(jfe%^#09m#&mgj6erpxou8z*2(9vo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -45,7 +45,6 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -56,7 +55,7 @@ MIDDLEWARE = [
     "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
 
-ROOT_URLCONF = "website.urls"
+ROOT_URLCONF = "otis.urls"
 
 TEMPLATES = [
     {

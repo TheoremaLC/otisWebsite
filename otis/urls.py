@@ -24,11 +24,11 @@ from otis import views
 
 
 urlpatterns = [
-    path("", "index.html", views.index, name="index"),
-    path("index.html", views.index, name="index"),
-    path("servicii.html", views.servicii, name="servicii"),
-    path("costuri.html", views.costuri, name="costuri"),
-    path("contact.html", views.contact, name="contact"),
+    path("", include("index.html")),
+    path("index", include("index.html")),
+    path("servicii", include("servicii.html")),
+    path("costuri", include("costuri.html")),
+    path("contact", include("contact.html")),
 ]
 
 

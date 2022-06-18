@@ -1,1 +1,1 @@
-web: gunicorn otis.wsgi
+web: gunicorn website.wsgi
